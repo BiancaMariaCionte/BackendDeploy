@@ -16,3 +16,5 @@ const auth = (req, res, next) => {
 };
 
 module.exports = auth;
+
+//auth <- protects routes by verifying JWT 
